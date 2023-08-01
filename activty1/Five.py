@@ -1,8 +1,7 @@
 import datetime
 
-def main():
+def dt():
     date = datetime.datetime.now()
     print("date: ", date)
 
-if __name__ == "__main__":
-    main()
+dt()
